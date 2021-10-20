@@ -1,0 +1,27 @@
+li:first-child {
+    color:teal;
+}
+
+li:last-child {
+    color:tomato;
+}
+
+li:nth-child(even) {
+    color: yellow;
+}
+
+li:nth-child(odd) {
+    color:royalblue;
+}
+
+li:nth-child(5) {
+    color:brown;
+}
+
+li:only-child {
+    color:black;
+}
+
+li:nth-child(2n+3) {
+    color:green;
+}
