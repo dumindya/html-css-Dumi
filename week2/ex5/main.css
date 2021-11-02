@@ -1,0 +1,69 @@
+h1 {
+    height: 200px;
+    width:500px;
+    border: 10px black solid;
+}
+
+p {
+    height: 200px;
+    width: 500px;
+    border: 5px black solid;
+}
+
+
+div {
+    height: 200px;
+    width: 500px;
+    border: 5px black solid;
+}
+
+/* targeting <p> elements where the parent is a <div> element */
+div > p {
+    color: coral;
+}
+
+/* targeting <p> element that is preceded by a <div> element */
+div ~ p {
+    color: crimson;
+}
+
+/* selecting class to change the font size */
+.about {
+    font-size: 10pt;
+}
+
+/* selecting class to add color */
+.introduction {
+    color: darkblue;
+}
+
+/* Selects the first letter of every <p> element */
+p::first-letter {
+    color: darkgreen;
+    font-size: 20pt;
+}
+
+/* Selects the first line of every <p> element */
+p::first-line {
+    color: darkgreen;
+}
+
+/* targeting <p> element that is the last child of its parent*/
+p:last-child {
+    color: darkkhaki;
+}
+
+/* Selects all <ul> elements where the parent is a <div> element */
+div > ul {
+    color: hotpink;
+}
+
+/*Selects the first letter of every <ul> items*/
+ul::first-letter {
+    color: purple;
+}
+
+/* Select id to change the font size in the list */
+#choices {
+    font-style: italic;
+}
