@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-size: 14pt;
+}
+
+div p {
+    color:blue;
+}
+
+div > p {
+    color: brown;
+}
+
+div ~ p {
+    color: chartreuse;
+}
+
+div + p {
+    color: darkmagenta;
+}
