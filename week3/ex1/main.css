@@ -1,0 +1,27 @@
+h1 {
+    height: 100px;
+    width:500px;
+    border: 10px black solid;
+}
+
+div p {
+        height: 200px;
+        width:500px;
+        border: 10px black solid;
+        border-radius: 10pt;
+}
+
+#options {
+        height: 200px;
+        width:500px;
+        border: 10px rgb(214, 48, 48) solid;
+        background-color: bisque;
+}
+
+#image {
+    margin-left: 100pt;
+}
+
+.introduction {
+    display: none;
+}
