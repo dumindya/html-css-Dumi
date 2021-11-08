@@ -1,0 +1,29 @@
+#main {
+    height: 150px;
+    width:500px;
+    border: 5px black solid;
+}
+
+nav {
+    height: 100px;
+    width:500px;
+    border: 5px black solid;
+}
+
+article {
+    height: 800px;
+    width:1000px;
+    border: 5px black solid;
+}
+
+aside {
+    height: 100px;
+    width:500px;
+    border: 5px black solid;
+}
+
+#contact {
+    height: 100px;
+    width:500px;
+    border: 5px black solid;
+}
