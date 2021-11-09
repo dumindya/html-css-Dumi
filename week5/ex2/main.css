@@ -1,0 +1,28 @@
+img {
+    border-radius: 60%;
+    border: 5px solid darkblue;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head1 {
+    color: blue;
+}
+
+#head2 {
+    color: red;
+}
+
+body {
+    background-color: rgb(73, 155, 248);
+}
+
+#docbody {
+    width: 1000px;
+    background-color: rgb(122, 238, 122);
+    height: 650px;
+    margin: 0px auto;
+    border: 5px solid black;
+}
