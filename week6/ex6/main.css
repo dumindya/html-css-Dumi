@@ -1,0 +1,36 @@
+div.items {
+    text-align: center;
+    font-weight: bold;
+    flex-grow: 1;
+    min-height: 100px;
+    width: 100%;
+}
+
+div#item1 {
+    width: 25%;
+    background-color: navy;
+}
+
+div#item2 {
+    width: 75%;
+    border: 2px solid red;
+}
+
+div#item3 {
+    background-color: blue;
+}
+
+div#item4 {
+    background-color: lightskyblue;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    margin: auto;
+}
+
+body, html, div {
+    box-sizing: border-box;
+}
