@@ -1,0 +1,39 @@
+div.items {
+    width: 50px;
+    min-height: 150px;
+    flex-grow: 1;
+}
+
+div#item1 {
+    width: 60%;
+    background-color: navy;
+}
+
+div#item2 {
+    width: 40%;
+    background-color: blue;
+}
+
+div#item3 {
+    background-color: lightskyblue;
+}
+
+div#item4 {
+    background-color: lightsteelblue;
+}
+
+div#item5 {
+    background-color: lightgrey;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+    border: 5px solid red;
+    margin: 0 auto;
+}
+
+html, body, div {
+    box-sizing: border-box;
+}
