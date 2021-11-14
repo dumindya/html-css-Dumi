@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div#menu-wrap {
+    width: 200px;
+}
+
+li {
+    width: 100%;
+    text-align: left;
+}
