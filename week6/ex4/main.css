@@ -1,0 +1,36 @@
+div.items {
+    border: 1px solid black;
+    flex-direction: row;
+    padding: 25px 0px;
+    text-align: center;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+div#item1 {
+    width: 100%;
+    background-color: coral;
+}
+
+div#item2 {
+    width: 60%;
+    background-color: lightskyblue;
+}
+
+div#item3 {
+    width: 39%;
+    background-color:palegreen;
+}
+
+div#item4 {
+    background-color: yellow;
+}
+
+div#item5 {
+    background-color: mediumorchid;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
