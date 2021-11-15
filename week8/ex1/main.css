@@ -1,0 +1,32 @@
+html, body, div {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+div.items {
+    width: 200px;
+    height: 40px;
+    background-color:coral;
+    border: 2px solid black;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 60px;
+}
+
+div#atf {
+    border: 5px solid red;
+    color: white;
+    text-shadow: 3px 3px black;
+    background-image: url('paradise.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
