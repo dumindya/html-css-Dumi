@@ -1,0 +1,8 @@
+#position {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,255,0.3);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
