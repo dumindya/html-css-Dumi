@@ -1,0 +1,21 @@
+ul {
+    list-style: none;
+    background-color: rgb(199, 119, 119);
+}
+
+a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    border-top: 5px solid rgba(rgb(133, 23, 23));
+    border: 1px solid rgba(rgb(192, 35, 35));
+}
+
+a :hover {
+    background-color: rosybrown;
+}
+
+a :last-child {
+    border-bottom: none;
+}
