@@ -1,0 +1,10 @@
+div, img {
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+#image {
+    float: right;
+    height: 200px;
+    width: 300px;
+}
