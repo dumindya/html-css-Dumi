@@ -1,0 +1,28 @@
+html {
+    border: 2px solid yellow;
+}
+
+body {
+    width: 40%;
+    border: 2px solid lightgreen;
+}
+
+div {
+    border: 2px solid blue;
+}
+
+#relative {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightseagreen;
+}
+
+#absolute {
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
