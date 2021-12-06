@@ -1,0 +1,29 @@
+img {
+    height: 200px;
+    width: 300px;
+    float: right;
+}
+
+#header, img {
+    border: 2px solid black;
+    margin: 20px;
+    background-color: rgb(224, 208, 188);
+    padding: 10px;
+    box-shadow: 5px 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 20px;
+}
+
+#footer {
+    border: 2px solid black;
+    margin: 20px;
+    background-color: rgb(202, 173, 138);
+    padding: 10px;
+    box-shadow: 5px 5px; 
+}
